@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: end;
-   
 }
 
 .headerOne .allContainer {
@@ -729,7 +728,6 @@ input::placeholder{
       height: 462px;
       border-width: 1px;
       margin-top: 20px;
-
     }
     
     .blockTwo .container .imgOn .p1, .p2 {
@@ -781,6 +779,42 @@ input::placeholder{
         height: 140px;
         margin-left: 350px;
         margin-top: -1970px;
+    }
+
+    .blockThree .buttonContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .blockThree .images {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;      
+    }
+    
+    .blockThree .images img {
+        border-radius: 10px;
+        width: 344px;
+        height: 240px;
+    }
+
+    .blockFour .head {
+        margin-top: 60px;
+        margin-left: -80px;
+    }
+    .blockFour .products { 
+        margin-left: -80px;
+    }
+    .blockFour .container {
+        width: 377px;
+        height: 480px;
+    }
+
+    .blockFour .container img {
+        height: 100%;
     }
 }
 
